@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0C7489;
+    color:#D7D9CE;
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    padding: 0 100px;
+}
+nav{
+    position:sticky;
+    top:0;
+    background-color:#63b5c4;
+    padding: 10px 0;
+    color:#E1BB80;
+}
+nav h1{
+    margin: 0;
+    display: inline;
+}
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    float:right;
+
+}
+nav ul li{
+    display: inline;
+    margin-left:20px;
+}
+nav ul li a{
+    color: #E1BB80;
+    text-decoration: none;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color:#E1BB80;
+    color:#63b5c4;
+
+}
+header{
+    background-color:#0B4F6C;
+    padding: 20px 0;;
+}
+.profile{
+    display:flex;
+    align-items:center;
+}
+.profile-inf0{
+    margin-left:50px;
+}
+.profile-pic{
+    width: 150px;
+    height:150px;
+    border:5px solid;
+    border-radius:50%;
+    margin-right: 20px;
+}
+main{
+    padding:20px 0;
+}
+section{
+    margin-bottom:40px;
+}
+section h2{
+    color:#E1BB80
+}
+.contact-head{
+    margin-bottom:20px ;
+
+}
+.contact-info{
+    color:#E1BB80;
+}
+.contact-info p{
+    margin-bottom: 0;
+
+}
+.contact-info ul{
+    list-style-type: none;
+    padding: 0;
+}
+.contact-info ul li{
+    display: inline;
+    margin:0 10px;
+
+}
+#Contact{
+    background-color:#05222f;
+    padding: 40px 0;
+    text-align: center;
+}
+.insta{
+    width:70px;
+    height: 70px;
+    border-radius:20%;
+}
+.snapchat{
+    width:70px;
+    height:70px;
+    border-radius:20%;
+}
+.insta:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
+.snapchat:hover{
+    opacity:0.7;
+    cursor:pointer;
+}
